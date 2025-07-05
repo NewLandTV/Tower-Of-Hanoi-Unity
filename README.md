@@ -4,6 +4,8 @@ Tower Of Hanoi with Unity Engine.
 
 유니티 엔진으로 만든 하노이의 탑.
 
+[![Development Note p.359](https://img.youtube.com/vi/S1XegATPEsE/0.jpg)](https://www.youtube.com/watch?v=S1XegATPEsE)
+
 # **Links(링크)**
 
 * [JkhTV YouTube(장경혁tv)](https://www.youtube.com/@NewLand2019-JkhTV)
