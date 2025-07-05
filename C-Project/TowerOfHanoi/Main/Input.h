@@ -1,0 +1,78 @@
+#ifndef __INPUT_H__
+#define __INPUT_H__
+
+#include <Windows.h>
+
+#define GetKeyDown(keyCode) GetAsyncKeyState(keyCode) & 0x8000
+#define GetKey(keyCode) GetAsyncKeyState(keyCode) & 0x8001
+#define GetKeyUp(keyCode) GetAsyncKeyState(keyCode) & 0x0001
+
+enum KeyCode
+{
+	KC_Back = 0x08,
+	KC_Tab = 0x09,
+	KC_Return = 0x0d,
+	KC_Shift = 0x10,
+	KC_Control = 0x11,
+	KC_Alt = 0x12,
+	KC_Pause = 0x13,
+	KC_CapsLock = 0x14,
+	KC_Escaoe = 0x1b,
+	KC_Space = 0x20,
+	KC_PageUp = 0x21,
+	KC_PageDown = 0x22,
+	KC_End = 0x23,
+	KC_Home = 0x24,
+	KC_LeftArrow = 0x25,
+	KC_UpArrow = 0x26,
+	KC_RightArrow = 0x27,
+	KC_DownArrow = 0x28,
+	KC_Select = 0x29,
+	KC_Insert = 0x2d,
+	KC_Delete = 0x2e,
+	KC_Help = 0x2f,
+	KC_0 = 0x30,
+	KC_1 = 0x31,
+	KC_2 = 0x32,
+	KC_3 = 0x33,
+	KC_4 = 0x34,
+	KC_5 = 0x35,
+	KC_6 = 0x36,
+	KC_7 = 0x37,
+	KC_8 = 0x38,
+	KC_9 = 0x39,
+	KC_A = 0x41,
+	KC_B = 0x42,
+	KC_C = 0x43,
+	KC_D = 0x44,
+	KC_E = 0x45,
+	KC_F = 0x46,
+	KC_G = 0x47,
+	KC_H = 0x48,
+	KC_I = 0x49,
+	KC_J = 0x4a,
+	KC_K = 0x4b,
+	KC_L = 0x4c,
+	KC_M = 0x4d,
+	KC_N = 0x4e,
+	KC_O = 0x4f,
+	KC_P = 0x50,
+	KC_Q = 0x51,
+	KC_R = 0x52,
+	KC_S = 0x53,
+	KC_T = 0x54,
+	KC_U = 0x55,
+	KC_V = 0x56,
+	KC_W = 0x57,
+	KC_X = 0x58,
+	KC_Y = 0x59,
+	KC_Z = 0x5a,
+	KC_LeftShift = 0xa0,
+	KC_RightShift = 0xa1,
+	KC_LeftControl = 0xa2,
+	KC_RightControl = 0xa3,
+	KC_LeftAlt = 0xa4,
+	KC_RightAlt = 0xa5
+};
+
+#endif
